@@ -44,7 +44,7 @@ function gerarNumeroAleatorio() {
     if (quantidadeDeElementosNaLista.length == numeroLimite) { 
         listaDeNumerosSorteados = [];        
     }
-    // coment
+
     if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
         return gerarNumeroAleatorio();
     } else {
